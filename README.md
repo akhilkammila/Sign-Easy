@@ -16,13 +16,16 @@ We ran into many challenges throughout this project, especially in terms of the 
 
 # Notes to Self
 npm run deploy to redeploy the website to gh-pages
-version as of Jul 15th:
-  restored to original Jul 3rd commit
-  added homepage and scripts to run gh-pages
-issue - backend heroku not working
-  most likely cause: heroku free trial ended, or was overloaded with too many requests
-  fix: need to make new heroku acc or redeploy backend
-if CORS issue arises again - could use cors proxy server
+
+### version as of Jul 15th:
+restored to original Jul 3rd commit
+added homepage and scripts to run gh-pages
+ 
+### issue - backend heroku not working
+most likely cause: heroku free trial ended, or was overloaded with too many requests
+fix: need to make new heroku acc or redeploy backend
+ 
+### if CORS issue arises again - could use cors proxy server
 
 # Improvements
 Short-term improvements:
