@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+#Inspiration
+From fewer educational and employment opportunities to social withdrawal and isolation; impaired communication adversely affects the quality of one’s interpersonal and intrapersonal relationships. Thus, overwhelming evidence indicates that it is critical for an individual, just as much as it is instrumental to society, that a means of resolution to enunciated miscommunication is accessible to all. While the lack of access to information may manifest in a multitude of varying ways, a significant factor in one’s potential lacking can be rooted in verbal and misunderstood transmission. In other words, when a discrepancy between what is said and what is heard occurs over a multitude of varying interactions, heavily emotional and professional ramifications birth as a result. Thus, we noticed a need for a solution for educating the mass public on how to use and understand basic ASL. Sign-Easy arose as a result of this.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#What it does
+Sign-Easy is a multipurpose AI online platform that converts between ASL and a multitude of international and largely spoken languages. Through a user-friendly digital interface, Sign-Easy is intuitive, efficient, and built upon the objective of accessibility. When users launch the website, they are prompted to the home screen. From the home screen to the translator in the upper tab header, users are able to translate text from a variety of languagesーEnglish, Spanish, French, Hindi, German, Japanese, Korean, Russianーto one of the most universal languages: American Sign Language (ASL). In the "Practice," users can swiftly translate their own ASL directly to English with the ease of one click.
 
-## Available Scripts
+#How we built it
+During the execution of the website, we trained our machine learning model to recognize various letters expressed physically in sign language to increase precision and accuracy in image recognition. Our model was trained using Tensorflow with various datasets that encompassed numerous sign language gestures and physical hand characteristics to maximize object recognition and object classification. For each letter, we inputted 15 images to train the model in recognizing ASL hand patterns. During training, we used imglabel to give each image a corresponding xml file.
 
-In the project directory, you can run:
+(see Image Gallery for snippets of training folders + xml files)
 
-### `npm start`
+To create our website, we used React on the frontend. On the "Translator" page, we translated from a multitude of internationally spoken languages to English using libretranslate api, and then used conditional rendering to translate the text into ASL. For the "Practice" page, we sent base64 images to our backend, which was run on Flask and deployed on Heroku. Our backend converts the base64 images into a predicted letter result using our machine learning model.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Challenges we ran into
+We ran into many challenges throughout this project, especially in terms of the visual ASL to English translation, given the limited amount of time we had. A significant problem was that the model had trouble isolating the user’s hand from the rest of their body and the background. However, these issues were solved by incorporating increasingly diverse and large datasets in training our model. Another issue we ran into was CORS blocking the connection between our frontend and backend. We found a workaround using a CORS proxy server. Being new to nearly all of the technologies we used in our project, we additionally ran into a multitude of technical issues, such as and installing dependencies and deploying our website to Github. We managed to work through each issue by sacrificing sleep.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Accomplishments that we're proud of
+As this is our first hackathon, we are very proud of our machine learning model, as we were able to achieve a 95% test accuracy while assuring the model’s consistent efficiency. Notable accomplishments surround the training of our model off datasets, and the means in which we used our datasets to optimize maximum model potential. Despite the varying challenges we faced, we were effectively able to overcome each and every one through constructive trial and error, as well as deliberate and meticulous planning, brainstorming, creation, and execution. Additionally, we are happy with the user-friendly and intuitive digital interface of Sign-Easy’s online platform, as it creates for a welcoming and convenient environment. In assuring such convenience, we were able to consider user interaction and potential needs.
 
-### `npm test`
+We self-learned much of React, Flask, and machine learning with Tensorflow in a two day span with primarily YT tutorials – and we are extremely proud of that.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#What we learned
+Prior to this hackathon, three of the four team members had no hackathon experience. So, this experience was very new to us as we utilized concepts we had never heard of before. Having had the opportunity to not only learn about how one can train an effective machine learning model, but to see the result of such training through its employment as well, is incredibly fascinating, rewarding, and intellectually gratifying. In many ways, we all individually, yet collectively as well, stretched ourselves far beyond our comfort zone by working with image and object recognition, in addition to dealing with the many underlying processes needed to be fulfilled in order to have an effective recognition mechanism running. For such a reason, this hackathon has unquestionably fulfilled a space within our hearts, as we have grown as individuals and team members.
