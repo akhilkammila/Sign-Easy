@@ -18,12 +18,12 @@ We ran into many challenges throughout this project, especially in terms of the 
 npm run deploy to redeploy the website to gh-pages
 
 ### version as of Jul 15th:
-restored to original Jul 3rd commit
-added homepage and scripts to run gh-pages
+Restored to original Jul 3rd commit
+Added homepage and scripts to run gh-pages
  
 ### issue - backend heroku not working
-most likely cause: heroku free trial ended, or was overloaded with too many requests
-fix: need to make new heroku acc or redeploy backend
+<ost likely cause: heroku free trial ended, or was overloaded with too many requests
+Fix: need to make new heroku acc or redeploy backend
  
 ### if CORS issue arises again - could use cors proxy server
 
