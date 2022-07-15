@@ -64,7 +64,7 @@ function Practice() {
             px={10}
             py={6}
             type="submit">
-            Take a Picture
+            Take a Pic!
           </Button>
 
           {/* <Input value = {resultText}
