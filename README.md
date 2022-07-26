@@ -23,3 +23,4 @@ We would also like to advertise our website and grow its user base. Down the roa
 [Youtube Link](https://www.youtube.com/watch?v=L3NoBqH5a7g&ab_channel=AkhilKammila)
 <br />
 [Live App](https://akhilkammila.github.io/Sign-Easy/)
+(because heroku free trial ran out, the backend is not deployed and the "practice" tab is not working)
