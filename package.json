@@ -2,7 +2,7 @@
   "name": "autoquizzr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akhilkammila.github.io/signeasy-app",
+  "homepage": "https://akhilkammila.github.io/Sign-Easy",
   "dependencies": {
     "@chakra-ui/react": "^2.0.2",
     "@emotion/react": "^11.9.0",
@@ -17,6 +17,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
+    "react-webcam": "^7.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
