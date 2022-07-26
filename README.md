@@ -1,4 +1,8 @@
 # Sign Easy
+[Video Demo](https://www.youtube.com/watch?v=L3NoBqH5a7g&ab_channel=AkhilKammila)
+<br />
+[Live App](https://akhilkammila.github.io/Sign-Easy/)
+(because heroku free trial ran out, the backend is not deployed and the "practice" tab is not working)
 
 ## 💡 Inspiration
 Millions of people with impaired communication abilities rely on sign language to communicate with others. However, most people have no sign language knowledge in the slightest. We noticed a need for educating the mass public on how to use and understand basic ASL. Sign-Easy arose as a result of this.
@@ -18,9 +22,3 @@ To create our website, we used React on the frontend. We translated from interna
 We would like to expand the number of sign language words that our machine learning algorithm can predict. Practically, it would be best to replace our own machine learning model with a large-scale pre-built model. This would save months of image collection and model training time.
 
 We would also like to advertise our website and grow its user base. Down the road, we could explore monetization with advertisements.
-
-## Try It OUT!
-[Youtube Link](https://www.youtube.com/watch?v=L3NoBqH5a7g&ab_channel=AkhilKammila)
-<br />
-[Live App](https://akhilkammila.github.io/Sign-Easy/)
-(because heroku free trial ran out, the backend is not deployed and the "practice" tab is not working)
