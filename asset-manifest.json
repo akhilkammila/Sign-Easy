@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sign-Easy/static/css/main.7e5d653c.css",
+    "main.js": "/Sign-Easy/static/js/main.b81fa31b.js",
+    "static/js/787.d1c0e258.chunk.js": "/Sign-Easy/static/js/787.d1c0e258.chunk.js",
+    "index.html": "/Sign-Easy/index.html",
+    "main.7e5d653c.css.map": "/Sign-Easy/static/css/main.7e5d653c.css.map",
+    "main.b81fa31b.js.map": "/Sign-Easy/static/js/main.b81fa31b.js.map",
+    "787.d1c0e258.chunk.js.map": "/Sign-Easy/static/js/787.d1c0e258.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e5d653c.css",
+    "static/js/main.b81fa31b.js"
+  ]
+}
