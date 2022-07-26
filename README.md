@@ -22,4 +22,4 @@ We would also like to advertise our website and grow its user base. Down the roa
 ## Try It OUT!
 [Youtube Link](https://www.youtube.com/watch?v=L3NoBqH5a7g&ab_channel=AkhilKammila)
 <br />
-[Live App](https://akhilkammila.github.io/signeasy-app/)
+[Live App](https://akhilkammila.github.io/Sign-Easy/)
