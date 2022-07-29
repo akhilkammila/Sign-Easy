@@ -1,4 +1,4 @@
-# Sign Easy
+# Sign Easy 🤟 🎉
 [Video Demo](https://www.youtube.com/watch?v=L3NoBqH5a7g&ab_channel=AkhilKammila)
 <br />
 [Live App](https://akhilkammila.github.io/Sign-Easy/)
